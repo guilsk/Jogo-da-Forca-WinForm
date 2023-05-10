@@ -89,14 +89,14 @@ namespace Jogo_da_Forca
 
         private void AtivaForca()
         {
-            if (erros == 0) lb_boneco.Text = "//==\\\\\r\n||        |\r\n||       \r\n||       \r\n||       \r\n||\r\n|| \r\n";
-            else if (erros == 1) lb_boneco.Text = "//==\\\\\r\n||        |\r\n||       O\r\n||       \r\n||       \r\n||\r\n|| \r\n";
-            else if (erros == 2) lb_boneco.Text = "//==\\\\\r\n||        |\r\n||       O\r\n||        |\r\n||       \r\n||\r\n|| \r\n";
-            else if (erros == 3) lb_boneco.Text = "//==\\\\\r\n||        |\r\n||       O\r\n||       /|\\\r\n||       \r\n||\r\n|| \r\n";
-            else if (erros == 4) lb_boneco.Text = "//==\\\\\r\n||        |\r\n||       O\r\n||       /|\\\r\n||       /\r\n||\r\n|| \r\n";
+            if (erros == 0) lb_boneco.Text = "//=====\\\\\r\n||        |\r\n||       \r\n||       \r\n||       \r\n||\r\n|| \r\n";
+            else if (erros == 1) lb_boneco.Text = "//=====\\\\\r\n||        |\r\n||       O\r\n||       \r\n||       \r\n||\r\n|| \r\n";
+            else if (erros == 2) lb_boneco.Text = "//=====\\\\\r\n||        |\r\n||       O\r\n||        |\r\n||       \r\n||\r\n|| \r\n";
+            else if (erros == 3) lb_boneco.Text = "//=====\\\\\r\n||        |\r\n||       O\r\n||       /|\\\r\n||       \r\n||\r\n|| \r\n";
+            else if (erros == 4) lb_boneco.Text = "//=====\\\\\r\n||        |\r\n||       O\r\n||       /|\\\r\n||       /\r\n||\r\n|| \r\n";
             else if (erros == 5)
             {
-                lb_boneco.Text = "//==\\\\\r\n||        |\r\n||       O\r\n||       /|\\\r\n||       / \\\r\n||\r\n|| \r\n";
+                lb_boneco.Text = "//=====\\\\\r\n||        |\r\n||       O\r\n||       /|\\\r\n||       / \\\r\n||\r\n|| \r\n";
                 GanhouPerdeu(false);
             }
         }

@@ -82,10 +82,10 @@
             // lb_boneco
             // 
             lb_boneco.AutoSize = true;
-            lb_boneco.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            lb_boneco.Font = new Font("Comic Sans MS", 24F, FontStyle.Bold, GraphicsUnit.Point);
             lb_boneco.Location = new Point(3, 0);
             lb_boneco.Name = "lb_boneco";
-            lb_boneco.Size = new Size(132, 315);
+            lb_boneco.Size = new Size(192, 315);
             lb_boneco.TabIndex = 0;
             lb_boneco.Text = "//==\\\\\r\n||        |\r\n||       O\r\n||       /|\\\r\n||       / \\\r\n||\r\n|| ";
             // 
